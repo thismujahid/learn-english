@@ -9,7 +9,7 @@ const appRouter = createRouter({
         },
         {
             path: '/tenses-cards',
-            component: () => import("../pages/SensesCards.vue")
+            component: () => import("../pages/TensesCards.vue")
         },
         {
             path:"/:pathMatch(.*)*",
