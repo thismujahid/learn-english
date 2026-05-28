@@ -5,5 +5,5 @@
   </footer>
 </template>
 <script lang="ts" setup>
-import { HeartIcon, CodeBracketIcon } from "@heroicons/vue/24/solid";
+import { HeartIcon } from "@heroicons/vue/24/solid";
 </script>
