@@ -6,7 +6,7 @@
       </RouterLink>
       <div class="flex items-center gap-3">
         <div
-          class="p-2 bg-gradient-to-br from-cyan-500/20 to-blue-500/20 rounded-lg border border-cyan-500/30"
+          class="p-2  from-cyan-500/20 to-blue-500/20 rounded-lg border border-cyan-500/30"
         >
           <BookOpenIcon class="w-6 h-6 text-cyan-400" />
         </div>
