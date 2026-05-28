@@ -1,7 +1,7 @@
 <template>
   <header class="border-b border-slate-800/50 backdrop-blur-sm">
     <div class="max-w-7xl mx-auto px-6 py-8">
-      <RouterLink to="/" class="flex items-center gap-3">
+      <RouterLink to="/" class="flex mb-3 items-center gap-3">
         <ArrowLongRightIcon class="w-6 h-6 text-cyan-400" /> العودة للرئيسية
       </RouterLink>
       <div class="flex items-center gap-3">
