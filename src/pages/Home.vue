@@ -13,13 +13,10 @@
           </div>
         </div>
       </div>
-      
     </div>
   </div>
 </template>
 
-<script setup>
-import { ref } from 'vue'
-import { Bars3Icon, XMarkIcon } from '@heroicons/vue/24/solid'
+<script setup lang="ts">
 
 </script>
