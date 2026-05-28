@@ -8,7 +8,7 @@ import AppFooter from "./components/AppFooter.vue";
       class="relative isolate"
     >
       <div
-        class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
+        class="fixed inset-x-0 top-0 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
         aria-hidden="true"
       >
         <div
