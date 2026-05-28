@@ -1,4 +1,4 @@
-<template lang="">
+<template>
   <header class="border-b border-slate-800/50 backdrop-blur-sm">
     <div class="max-w-7xl mx-auto px-6 py-8">
       <RouterLink to="/" class="flex items-center gap-3">
@@ -11,18 +11,19 @@
           <BookOpenIcon class="w-6 h-6 text-cyan-400" />
         </div>
         <div>
-          <h1 class="text-3xl text-white">{{title}}</h1>
+          <h1 class="text-3xl text-white">{{ title }}</h1>
           <p class="text-slate-400 text-sm mt-1">
-            {{description}}
+            {{ description }}
           </p>
         </div>
       </div>
     </div>
   </header>
 </template>
-<script setup lang="ts">
+<script lang="ts" setup>
 import { BookOpenIcon, ArrowLongRightIcon } from "@heroicons/vue/24/solid";
-defineProps<{
+
+const props = defineProps<{
   title: string;
   description: string;
 }>();
