@@ -12,6 +12,10 @@ const appRouter = createRouter({
             component: () => import("../pages/TensesCards.vue")
         },
         {
+            path: '/take-exam',
+            component: () => import("../pages/Exams.vue")
+        },
+        {
             path:"/:pathMatch(.*)*",
             component: () => import("../pages/NotFound.vue")
         }
